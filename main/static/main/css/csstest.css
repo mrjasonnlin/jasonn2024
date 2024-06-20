@@ -15,7 +15,7 @@ h1 {
     left:120px;
     top:0;
     line-height: 80px;
-    background-image:url("/img/bike.jpg") ;
+    background-image:url("main/img/bike.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     width:210px;
