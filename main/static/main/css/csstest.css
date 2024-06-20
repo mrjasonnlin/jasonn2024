@@ -42,7 +42,7 @@ header a:hover {
     background-color: antiquewhite;
     color:white;
     height:95vh;
-    background-image: url("img/bike.jpg");
+    background-image: url("/img/background.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
