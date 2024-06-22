@@ -34,7 +34,12 @@ ul#menu li {
   }
 #footer{
     font-size: 0.8em;
-    color: blue;
+    background-color:#000000;
+    color:#B7B7B7;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
  }
 /* Button */
 .btn {
