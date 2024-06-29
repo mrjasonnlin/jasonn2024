@@ -1,0 +1,14 @@
+The key fingerprint is:
+SHA256:alaupaQd/KHUHPSiRZtM2fiyRjvB1BeY1KcBmsZko+4 user@DESKTOP-OB2SIK3
+The key's randomart image is:
++---[RSA 3072]----+
+|        +.o=.    |
+|       = Oo o..  |
+|      . % o .+   |
+|     . O = ..    |
+|      . S o      |
+|     o X B       |
+|      E @        |
+|     B O o       |
+|    . = .        |
++----[SHA256]-----+

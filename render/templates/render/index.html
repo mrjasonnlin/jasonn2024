@@ -17,10 +17,10 @@
 -->
 </head>
 <body>
-
 <header class="container mt-4 mb-4">
+    <div class="row">
 
-    <div class="card" style="width: 18rem;">
+<div class="card" style="width: 23rem;">
   <img src="{% static "render/bike.jpg" %}" class="card-img-top" alt="Jason的網站">
   <div class="card-body">
     <h5 class="card-title">Jason的網站</h5>
@@ -29,11 +29,31 @@
   </div>
 </div>
 
+        <div class="card" style="width: 23rem;">
+  <img src="{% static "render/bike.jpg" %}" class="card-img-top" alt="Jason的網站">
+  <div class="card-body">
+    <h5 class="card-title">Jason的網站</h5>
+    <p class="card-text">Jason的網站</p>
+    <a href="https://jasonn2023.onrender.com/" class="btn btn-primary">Jason的網站</a>
+  </div>
+</div>
+
+        <div class="card" style="width: 23rem;">
+  <img src="{% static "render/bike.jpg" %}" class="card-img-top" alt="Jason的網站">
+  <div class="card-body">
+    <h5 class="card-title">Jason的網站</h5>
+    <p class="card-text">Jason的網站</p>
+    <a href="https://jasonn2023.onrender.com/" class="btn btn-primary">Jason的網站</a>
+  </div>
+</div>
+
+
+</div>
 </header>
 <main class="container">
     <div class="row text-center justify-content-center">
         <div class="col">
-            <h1 class="display-4">Jason的網站!</h1>
+
             <button type="button" class="btn btn-warning btn-lg btn-block"><a class="text-body" href="{% url 'main:bike' %}">Jason的重機</a></button>
             <button type="button" class="btn btn-warning btn-lg btn-block"><a class="text-body" href="{% url 'main:main' %}">首頁</a></button>
             <button type="button" class="btn btn-warning btn-lg btn-block" disabled>禁用</button>
