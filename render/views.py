@@ -10,7 +10,7 @@ def bike(request):
     """
     Render the bike page
     """
-    return render(request, 'render/bike.html')
+    return render(request, 'main/bike.html')
 
 
 def main(request):
