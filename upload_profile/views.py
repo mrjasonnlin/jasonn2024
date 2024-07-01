@@ -23,5 +23,5 @@ def add(request):
 
 
 def detail(request):
-    list_user = Photo.objects.all()  # 把資料庫中所有的user資料全部撈出來
-    return render(request, 'upload_profile/detail.html', locals())
+   list_user = Photo.objects.all()  # 把資料庫中所有的user資料全部撈出來
+   return render(request, 'upload_profile/detail.html', locals())
