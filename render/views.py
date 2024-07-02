@@ -6,17 +6,17 @@ def index(request):
     return render(request, 'render/index.html', {})
 
 
-def bike(request):
+#def bike(request):
     """
     Render the bike page
     """
-    return render(request, 'main/bike.html')
+#    return render(request, 'main/bike.html')
 
 
-def main(request):
+#def main(request):
     """
     Render the main page
     """
-    context = {'like': 'Django 很棒'}
-    return render(request, 'main/main.html', context)
+#    context = {'like': 'Django 很棒 render view'}
+#    return render(request, 'main/main.html', context)
 

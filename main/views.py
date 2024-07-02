@@ -10,7 +10,7 @@ def index(request):
     """
     #    return render(request, 'main/main.html', {})
 
-    context = {'like': 'Django 很棒 Django 很棒 Django 很棒'}
+    context = {'like': 'Django 很棒______'}
     return render(request, 'main/main.html', context)
 
 
@@ -18,7 +18,7 @@ def main(request):
     """
     Render the main page
     """
-    context = {'like': 'Django 很棒'}
+    context = {'like': 'Django 很棒 main view'}
     return render(request, 'main/main.html', context)
 
 
