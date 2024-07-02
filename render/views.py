@@ -3,7 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'render/index.html', {})
+    context = {'like': 'Django 很棒'}
+    return render(request, 'render/index.html', context)
 
 
 #def bike(request):
