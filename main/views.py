@@ -3,52 +3,27 @@ from django.contrib import messages
 from django.urls.base import reverse
 from account.models import User
 
-
 def index(request):
-    """
-    Render the main page
-    """
     #    return render(request, 'main/main.html', {})
-
     context = {'like': 'Django 很棒______'}
     return render(request, 'main/main.html', context)
-
+#this index is no used
 
 def main(request):
-    """
-    Render the main page
-    """
     context = {'like': 'Django 很棒 main view'}
     return render(request, 'main/main.html', context)
 
-
 def about(request):
-    """
-    Render the about page
-    """
     return render(request, 'main/about.html')
 
-
 def bike(request):
-    """
-    Render the bike page
-    """
     return render(request, 'main/bike.html')
 
 def csstest(request):
-    """
-    Render the bike page
-    """
     return render(request, 'main/csstest.html')
 
-
-
 def django(request):
-    """
-    Render the bike page
-    """
     return render(request, 'main/django.html')
-
 
 def admin_required(func):
     def auth(request, *args, **kwargs):
@@ -58,7 +33,6 @@ def admin_required(func):
         return func(request, *args, **kwargs)
 
     return auth
-
 
 def users(request):
     users = User.objects.all()
