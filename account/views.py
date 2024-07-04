@@ -7,9 +7,6 @@ from django.contrib.auth.decorators import login_required
 from account.forms import UserForm
 
 def register(request):
-    """
-    Register a new user
-    """
     template = 'account/register.html'
     if request.method == 'GET':
         return render(request, template, {'userForm': UserForm()})
