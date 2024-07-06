@@ -33,6 +33,16 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
+.slogan {
+    background-color:#485652;
+    color:white;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
 
 /* 說明 */
 ul#menu {
