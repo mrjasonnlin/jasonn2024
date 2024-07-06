@@ -9,10 +9,21 @@
 <link rel="stylesheet" href="{% static 'main/css/main.css' %}" >
 {% block css %}{% endblock %}
 </head>
+
 <body>
 {% include 'main/menu.html' %}
 <div class="container-fluid p-2 bg-primary text-white text-center">
   <h2>部落格 -- {% block heading %}{% endblock %}</h2>
+ <h6>
+    <!--<h3 style="background-color:Tomato;">-->
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="/">Blog</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'main:bike' %}">重機</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'main:about' %}">關於</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'main:csstest' %}">CSS練習</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'main:django' %}">Django</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'upload_profile:upload_profile' %}">簽到簿</a></button>
+    <button type="button" class="btn btn-primary"><a class="text-primary" href="{% url 'main:users' %}">註冊會員</a></button>
+</h6>
 </div>
 {% block content %}{% endblock %}
 <div class="container mt-5">

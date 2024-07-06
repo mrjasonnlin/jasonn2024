@@ -6,9 +6,9 @@ from django.utils import timezone
 
 class Photo(models.Model):
     user_name = models.CharField(max_length=30)
-    user_image = models.ImageField(upload_to='', blank=False, null=False)
+    user_image = models.ImageField(upload_to='image/', blank=False, null=False)
     upload_date = models.DateField(default=timezone.now)
-    introduce = models.FileField(upload_to='')
+    introduce = models.FileField(upload_to='introduce/')
 
     def __str__(self):
         return self.user_name

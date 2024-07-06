@@ -1,11 +1,9 @@
 {% extends 'main/base.html' %}
 {% load static %}
-{% block heading %}
-<button type="button" class="btn btn-primary"><a href="{% url 'upload_profile:add' %}">簽到簿</a></button>
-<button type="button" class="btn btn-primary"><a href="{% url 'upload_profile:detail' %}">查看簽到簿</a></button>
-{% endblock %}
-
+{% block heading %}簽到{% endblock %}
 {% block content %}
+<button type="button" class="btn btn-primary"><a href="{% url 'upload_profile:add' %}">簽到</a></button>
+<button type="button" class="btn btn-primary"><a href="{% url 'upload_profile:detail' %}">查看簽到簿</a></button>
     <form action="/upload_profile/add/" enctype="multipart/form-data" method="post">
         {% csrf_token %} <!--防止跨站請求偽造-->
         <br>
