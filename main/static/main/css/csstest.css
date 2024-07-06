@@ -5,9 +5,9 @@
 header {
     background-color:rgba(35,28,26,0.8);
     height:80px;
-    width:100%;
-    position:fixed;
- /*   position:absolute; */
+    width:92%;
+/*  position:fixed; */
+    position:absolute; 
 }
 h1 {
     color:white;
