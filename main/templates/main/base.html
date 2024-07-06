@@ -11,9 +11,11 @@
 </head>
 <body>
 {% include 'main/menu.html' %}
+<header>
 <div class="container-fluid p-2 bg-primary text-white text-center">
   <h2>部落格 -- {% block heading %}{% endblock %}</h2>
 </div>
+</header>
 {% block content %}{% endblock %}
 <div class="container mt-5">
     <div class="row">
