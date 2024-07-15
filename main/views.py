@@ -10,7 +10,7 @@ from account.models import User
 # this index is no used
 
 def main(request):
-    context = {'like': 'Django 很棒'}
+    context = {'like': 'Django 很棒棒'}
     return render(request, 'main/main.html', context)
 
 def about(request):
