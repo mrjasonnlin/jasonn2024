@@ -3,8 +3,8 @@ from django.contrib import messages
 from django.urls.base import reverse
 from account.models import User
 
-#def index(request):
-    #    return render(request, 'main/main.html', {})
+# def index(request):
+#    return render(request, 'main/main.html', {})
 #    context = {'like': 'Django 很棒______'}
 #    return render(request, 'main/main.html', context)
 # this index is no used
